@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "kind": "MATERIALKOLOR_TWO_MODULE_OHOS_SOURCE_PORT",
+  "kotlin": "2.4.20-0.1.0-08",
+  "compose": "1.12.0-0.1.0-11",
+  "material3": "1.12.0-0.1.0-11",
+  "gradle": "9.5.0",
+  "gradleWrapper": {
+    "inputs": [
+      {
+        "path": "gradle/wrapper/gradle-wrapper.jar",
+        "size": 43764,
+        "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172"
+      },
+      {
+        "path": "gradle/wrapper/gradle-wrapper.properties",
+        "size": 339,
+        "sha256": "93b4f2c5ddcfc9e6f630fc7e004b31b389695cd0228be6da42e196e5d4af7acb"
+      }
+    ],
+    "distributionUrl": "https://services.gradle.org/distributions/gradle-9.5.0-bin.zip",
+    "distributionSha256": "553c78f50dafcd54d65b9a444649057857469edf836431389695608536d6b746",
+    "cacheDirectory": ".local/gradle-user-home/wrapper/dists/gradle-9.5.0-bin/bvnork1r7n8i6kp5cnkibsc9q"
+  },
+  "pokoCompiler": "0.23.2",
+  "pokoAnnotation": "dev/drewhamilton/poko/Poko",
+  "metadataPolicy": "COMMON_METADATA_CLI_SAME_CPF08",
+  "modules": {
+    "material-kolor": {
+      "group": "io.github.qsxs.cpf.materialkolor",
+      "upstreamVersion": "5.0.0",
+      "sourceCount": 23,
+      "license": "MIT License",
+      "licenseUrl": "https://opensource.org/license/mit/",
+      "repository": "https://github.com/jordond/MaterialKolor",
+      "licenseSha256": "8c6e9406804f46a424c033510a28d02c64a0d94862a27c71af231a91cc1504d3"
+    },
+    "material-color-utilities": {
+      "group": "io.github.qsxs.cpf.materialkolor",
+      "upstreamVersion": "5.0.0",
+      "sourceCount": 42,
+      "license": "Apache License 2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "repository": "https://github.com/jordond/MaterialKolor",
+      "licenseSha256": "8ded460ad5bd3ab9082eaa2f7502cc9bb621eaff87cecc55d823f21758707cea"
+    }
+  }
+}

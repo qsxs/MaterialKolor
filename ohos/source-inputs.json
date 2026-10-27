@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "upstream": {
+    "repository": "https://github.com/jordond/MaterialKolor",
+    "tag": "5.0.0",
+    "commit": "13c67cfa5a724cb6dca7d15674b3ad2acf894853"
+  },
+  "modules": {
+    "material-kolor": {
+      "sourceRoot": "../material-kolor/src/commonMain/kotlin",
+      "sourceMembers": [
+        {
+          "member": "commonMain/com/materialkolor/Contrast.kt",
+          "size": 160,
+          "sha256": "8c59c2065b31d8479eca0aa051d7866d17fe82a990d9d61e4f784e47202298d4"
+        },
+        {
+          "member": "commonMain/com/materialkolor/DynamicColorScheme.kt",
+          "size": 12074,
+          "sha256": "d78500f0158970a5fa2a2f1f33eaa4729c2e5162147c38c33616b4f877ba00a6"
+        },
+        {
+          "member": "commonMain/com/materialkolor/DynamicMaterialExpressiveTheme.kt",
+          "size": 8736,
+          "sha256": "88ab4601e741a6f668a9f1d741c394fbd887fe91746dd8fc5713aff4ee2ec1d4"
+        },
+        {
+          "member": "commonMain/com/materialkolor/DynamicMaterialTheme.kt",
+          "size": 7420,
+          "sha256": "8f2d468784977ab7be33fd9639042b2aaebdd50ca75caa97c51974ed1a203c06"
+        },
+        {
+          "member": "commonMain/com/materialkolor/DynamicMaterialThemeState.kt",
+          "size": 14402,
+          "sha256": "2ceb7ae1c2831a9026d7a9257fb4a1c4699b5c53a695c966bcab2f7be0913fad"
+        },
+        {
+          "member": "commonMain/com/materialkolor/LocalDynamicMaterialThemeSeed.kt",
+          "size": 521,
+          "sha256": "75642f91d532e0020559184831a2b6e1d729604d6ec1a87ce11f3af33d0111fa"
+        },
+        {
+          "member": "commonMain/com/materialkolor/MaterialKolors.kt",
+          "size": 14224,
+          "sha256": "2200e8764bfddda13a2811be19a819f2a6d4b8e7f23353e4fb19185f2c843b6f"
+        },
+        {
+          "member": "commonMain/com/materialkolor/PaletteStyle.kt",
+          "size": 2121,
+          "sha256": "4c8b8fe38c590a2a5013cc4b7548ee385f0016c9a1dd21564ffe0dce52a0a7b7"
+        },
+        {
+          "member": "commonMain/com/materialkolor/internal/ColorMath.kt",
+          "size": 3369,
+          "sha256": "a47a4f54335ae7f354ac047793bcbe970628b3fe530915dfc6e67e08370a4c03"
+        },
+        {
+          "member": "commonMain/com/materialkolor/internal/Util.kt",
+          "size": 650,
+          "sha256": "763f263a8b46d26f3f3c4393be9d11b45e27ac5013694e2d8dbb99d30ce8f5c4"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/Blend.kt",
+          "size": 2117,
+          "sha256": "e989df6f029adde2cc5aab0a06287f0235444cdefff0a4d0f128ad29e394b579"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/Color.kt",
+          "size": 4875,
+          "sha256": "ed44eb289c212ff602bdf401a4189e4390b95f0a6fe42ca94efefce7dc9322a6"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/ColorScheme.kt",
+          "size": 14652,
+          "sha256": "27de0d78c59ffab8a94de701b0bf85c9b33e50f8e929bae1ba2f419adbef04ee"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/Contrast.kt",
+          "size": 3623,
+          "sha256": "eff400e3c45148769f944d92108939213439f2eafccf9f8cd0038e734682982a"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/CorePalette.kt",
+          "size": 746,
+          "sha256": "336770277cdabe7d23d2cdfa24fbb4c9d0d37eb61fe581d16403d825a0c08c1c"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/DynamicColor.kt",
+          "size": 530,
+          "sha256": "bf08908d3ca904006e64f7b55aaafa20c317dbb202959511f68b1ce0a6b4ddb8"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/DynamicScheme.kt",
+          "size": 7141,
+          "sha256": "413918e9da0c474c1f07d60a9de5d1f819a674758ea7d2ac3409c5e2a552fcf9"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/Harmonize.kt",
+          "size": 2294,
+          "sha256": "df680587397685cb7da0815ad921f0f739be06017dbeea20072f13b2fec18d76"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/Hct.kt",
+          "size": 1261,
+          "sha256": "a0109e9af82d5c62b1aed00bad5c02ff408941a6b774abf2e7c9df9f91223d33"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/ImageBitmap.kt",
+          "size": 5823,
+          "sha256": "7e126814cd47499fbbb6dbb2e19b62154c02a8f3e54865c3d8f6a9f8a65699cc"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/MaterialDynamicColors.kt",
+          "size": 833,
+          "sha256": "9b8dc0b953fc1c12c550199c1d681c5935a039b6ad4b384a8c16962b0523e34f"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/Temperature.kt",
+          "size": 1984,
+          "sha256": "dd5b8ccf08743e83086f558ec0c94b734a04f25126b72d2a60765fb8f7c4e409"
+        },
+        {
+          "member": "commonMain/com/materialkolor/ktx/TonalPalette.kt",
+          "size": 1190,
+          "sha256": "637439b463882b343ecc27a4f81634a514860fb776dcce3d2778973b89d7c2e7"
+        }
+      ],
+      "sources": {
+        "path": "vendor/material-kolor/material-kolor-5.0.0-sources.jar",
+        "size": 25262,
+        "sha256": "99c5206e22c55cf2b1a340e44d91ad7e8b569c974bf756d608df408a2330af7a"
+      },
+      "gmm": {
+        "path": "vendor/material-kolor/main-materialkolor.module",
+        "size": 19536,
+        "sha256": "77cf6c38358d7fef0144aaca48d303e1cf8cffc1a04444857e8c378e14c2e734"
+      },
+      "pom": {
+        "path": "vendor/material-kolor/material-kolor-5.0.0.pom",
+        "size": 3006,
+        "sha256": "75fad15aaf7b4ba1a2c85b94801cd256931ed11ddef760f1fab3b055b422d32b",
+        "url": "https://repo.maven.apache.org/maven2/com/materialkolor/material-kolor/5.0.0/material-kolor-5.0.0.pom"
+      },
+      "license": {
+        "path": "legal/material-kolor/LICENSE",
+        "size": 1071,
+        "sha256": "8c6e9406804f46a424c033510a28d02c64a0d94862a27c71af231a91cc1504d3"
+      }
+    },
+    "material-color-utilities": {
+      "sourceRoot": "../material-color-utilities/src/commonMain/kotlin",
+      "sourceMembers": [
+        {
+          "member": "commonMain/com/materialkolor/blend/Blend.kt",
+          "size": 4305,
+          "sha256": "f0b5b90754ef0ec33ed7325ea41352e88ba12bb15fa143203a891404c2425613"
+        },
+        {
+          "member": "commonMain/com/materialkolor/contrast/Contrast.kt",
+          "size": 12334,
+          "sha256": "8a4655a732cbf09aab007b37202177a664f1861af72cab98b5c42bff9d5e4b6d"
+        },
+        {
+          "member": "commonMain/com/materialkolor/dislike/DislikeAnalyzer.kt",
+          "size": 1913,
+          "sha256": "4e7a6a30b835f5388fe0ce451aec6019746e7642ae45c8020fc8f16b7a6b23ad"
+        },
+        {
+          "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpec.kt",
+          "size": 5681,
+          "sha256": "d3f39048d6004eb06d60b2a61e90b023fd73d46606fa1fb8c6964c973bc3904c"
+        },
+        {
+          "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpec2021.kt",
+          "size": 55763,
+          "sha256": "73b7a46ffd48a8b865acdfe47db28f196cf9ef1ba22b87ae01c043cbda1f09e9"
+        },
+        {
+          "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpec2025.kt",
+          "size": 93161,
+          "sha256": "e16b195fb316b5edab300c01c2d9a20779427a8c3155def8a3c5e7ed2de2e8f8"
+        },
+        {
+          "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpecs.kt",
+          "size": 1008,
+          "sha256": "56be2d35ef1418328f2bee74c0307a0caf1a8fb91857663fd42687f44a2b834e"
+        },
+        {
+          "member": "commonMain/com/materialkolor/dynamiccolor/ContrastCurve.kt",
+          "size": 2031,
+          "sha256": "c696c28953f70abe3260da02ad030af54db1fe673e8aace4dd14c324f2ff8ac7"
+        },
+        {
+          "member": "commonMain/com/materialkolor/dynamiccolor/DynamicColor.kt",
+          "size": 23727,
+          "sha256": "ec9922b5f2f8865a0dbc34dad67b195f453b176eb7b85d608b73be70a5ece743"
+        },
+        {
+          "member": "commonMain/com/materialkolor/dynamiccolor/MaterialDynamicColors.kt",
+          "size": 10445,
+          "sha256": "955e7f8f5fc59523e70eacde50f7ad37bb33626c2f461e68fa8f0b083f547c25"
+        },
+        {
+          "member": "commonMain/com/materialkolor/dynamiccolor/ToneDeltaPair.kt",
+          "size": 2680,
+          "sha256": "32f4e0f0d3db7cae28bd187492a44db7a3ca36717a532bae9d5da9ffa3a83be9"
+        },
+        {
+          "member": "commonMain/com/materialkolor/dynamiccolor/TonePolarity.kt",
+          "size": 1334,
+          "sha256": "7eaf7450bd373d396483f32f16a9822c796d7e9d1388475cd0ff7262134a16f8"
+        },
+        {
+          "member": "commonMain/com/materialkolor/hct/Cam16.kt",
+          "size": 16620,
+          "sha256": "d8c8c2868d73c653c956e8555e9ea6457e3927b63f9449c4269b2872a4a43856"
+        },
+        {
+          "member": "commonMain/com/materialkolor/hct/Hct.kt",
+          "size": 5770,
+          "sha256": "693b98342e476912e82ef255433330286d125e2f9d8adae2f27c6a3429ed5819"
+        },
+        {
+          "member": "commonMain/com/materialkolor/hct/HctSolver.kt",
+          "size": 23404,
+          "sha256": "22d1d586690018f1661dc49acde57c70e837c1135181f4662bd206606141e8db"
+        },
+        {
+          "member": "commonMain/com/materialkolor/hct/ViewingConditions.kt",
+          "size": 7054,
+          "sha256": "7f2df51eb3d4afd3e03de00ed427c53b976440368841d776b4ae78c8ded4ca50"
+        },
+        {
+          "member": "commonMain/com/materialkolor/palettes/CorePalette.kt",
+          "size": 2905,
+          "sha256": "c25212e8deb7492aac69ecc7d533f25d2fc6bb71ea32ec1baa4a05441f05ac45"
+        },
+        {
+          "member": "commonMain/com/materialkolor/palettes/TonalPalette.kt",
+          "size": 7092,
+          "sha256": "6e2701311775c560bc70304d483cb274a149d19cdc49924435686f0a27d4eca6"
+        },
+        {
+          "member": "commonMain/com/materialkolor/quantize/PointProvider.kt",
+          "size": 1657,
+          "sha256": "bee73aa52d049c6aeb00bb499da77f3d4288daa7b6e460318b68315de89e0d9b"
+        },
+        {
+          "member": "commonMain/com/materialkolor/quantize/PointProviderLab.kt",
+          "size": 2010,
+          "sha256": "2c640c41eb391cbe4ce298743074815dd68b551d65ce61ab9d7e469544679cea"
+        },
+        {
+          "member": "commonMain/com/materialkolor/quantize/Quantizer.kt",
+          "size": 757,
+          "sha256": "0b3c1d945d11f1c15112f3ce6ebc2451bc770fd4cb0736bd59feded2d9201457"
+        },
+        {
+          "member": "commonMain/com/materialkolor/quantize/QuantizerCelebi.kt",
+          "size": 2214,
+          "sha256": "bbf1a56c543d2ef67eae0f49a3aa04d9010aeea70d24a83de1d3f2c1b5ca27a1"
+        },
+        {
+          "member": "commonMain/com/materialkolor/quantize/QuantizerMap.kt",
+          "size": 1309,
+          "sha256": "166462cf4de2192c81ea443266669c431ab0a4b6390ff9c3590ca6472eae046e"
+        },
+        {
+          "member": "commonMain/com/materialkolor/quantize/QuantizerResult.kt",
+          "size": 796,
+          "sha256": "0ef685e0d7d5c94cb4b995f60004ec5674ce4de58311fb63a6c059e25272f68e"
+        },
+        {
+          "member": "commonMain/com/materialkolor/quantize/QuantizerWsmeans.kt",
+          "size": 8593,
+          "sha256": "9a0c2ba157edc50a8ab1d1c8573fdb25a05ea86f650372cb87d6a2e1938b53c8"
+        },
+        {
+          "member": "commonMain/com/materialkolor/quantize/QuantizerWu.kt",
+          "size": 15582,
+          "sha256": "a9ff19930bd953c8da509ccd2124d48e5d4e749b80ed0c531365639394fb5227"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/DynamicScheme.kt",
+          "size": 15508,
+          "sha256": "fc2f833aa440dd3ce811f374d711023c5d001212152f5d427773e5d5b6c3801c"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/SchemeContent.kt",
+          "size": 3742,
+          "sha256": "f5c1f4c945f258def81ffda184e6f5a508b85e8c3917f67d915c8ae0fc58ab63"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/SchemeExpressive.kt",
+          "size": 2596,
+          "sha256": "fd844c77bc09c0ac50165f44b33f62b75e703ac989231911fc8acc3feff05dc1"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/SchemeFidelity.kt",
+          "size": 3581,
+          "sha256": "c4acd4bad1eb34e6e89793a2d7cc832758d1b08a09d71729d5defa4d1dc326e7"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/SchemeFruitSalad.kt",
+          "size": 3266,
+          "sha256": "a4f17f05db722990e8d87aa48591710d5e95853b641d25d906152b7e462f1f1f"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/SchemeMonochrome.kt",
+          "size": 3248,
+          "sha256": "3dc56fad92e4320d3e4c768ad1ca37a927a16ac93e9bd1de005fa42aeb701f66"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/SchemeNeutral.kt",
+          "size": 2405,
+          "sha256": "ef01b6502f3c3aaf04a4c336a6e7416c978438e36e35e3c38040f130fd2b88ce"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/SchemeRainbow.kt",
+          "size": 3235,
+          "sha256": "a57088b5f4172cab2409ffd564e25ad8bef3b621395faace282ddcb2835946db"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/SchemeTonalSpot.kt",
+          "size": 2778,
+          "sha256": "00be09c64635ba36f27ea8442116d9e4b28d0e736dc39457d31373d385946f21"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/SchemeVibrant.kt",
+          "size": 2455,
+          "sha256": "d6d6dcf6fc33bd80fe1bba915c48d13d81a5a7757d5c33a1a1f3b92ba2d9395d"
+        },
+        {
+          "member": "commonMain/com/materialkolor/scheme/Variant.kt",
+          "size": 2606,
+          "sha256": "d59b555c0f8cbee00e990b6a316eb6e9618bfd7c98e9b25048cfedde007b6293"
+        },
+        {
+          "member": "commonMain/com/materialkolor/score/Score.kt",
+          "size": 6221,
+          "sha256": "7fc21024298035c75cad64cb7b5c3547483d0d1316236296e642fdf30a0b9097"
+        },
+        {
+          "member": "commonMain/com/materialkolor/temperature/TemperatureCache.kt",
+          "size": 12907,
+          "sha256": "73f1ae2453350301e3832fffab9bdd1c5f61bba93642c3a27f5705075cf7bd1f"
+        },
+        {
+          "member": "commonMain/com/materialkolor/utils/ColorUtils.kt",
+          "size": 10179,
+          "sha256": "dce9c59e606b61c5e5631eed11d1e3877fad9f6a0950205a561b71fad2bf06e7"
+        },
+        {
+          "member": "commonMain/com/materialkolor/utils/MathUtils.kt",
+          "size": 4335,
+          "sha256": "167c60dfdc4d2ffedb1befd6465a437c45efec1d4253a98733700be200f30e25"
+        },
+        {
+          "member": "commonMain/com/materialkolor/utils/Pow.kt",
+          "size": 259,
+          "sha256": "c8c56b466072a0c8570298a4377441a047475c625b85dec5f698fe1c8dc1859e"
+        }
+      ],
+      "sources": {
+        "path": "vendor/material-color-utilities/material-color-utilities-5.0.0-sources.jar",
+        "size": 96132,
+        "sha256": "c06749aa620702c9fe419b2aa87d4ff2ad28cb6fa1fa5efa72a67f370ba60bb1"
+      },
+      "gmm": {
+        "path": "vendor/material-color-utilities/material-color-utilities-5.0.0.module",
+        "size": 17624,
+        "sha256": "12462856606ddcff0f4746e442b6a2cb5f4cd2116844f16446afcf7e7c12c724"
+      },
+      "pom": {
+        "path": "vendor/material-color-utilities/material-color-utilities-5.0.0.pom",
+        "size": 2057,
+        "sha256": "899c66aae218ee04552f7e8449ae65e836d7c1e8df589964ebea89a53ffe6b51",
+        "url": "https://repo.maven.apache.org/maven2/com/materialkolor/material-color-utilities/5.0.0/material-color-utilities-5.0.0.pom"
+      },
+      "license": {
+        "path": "legal/material-color-utilities/LICENSE",
+        "size": 10755,
+        "sha256": "8ded460ad5bd3ab9082eaa2f7502cc9bb621eaff87cecc55d823f21758707cea"
+      }
+    }
+  },
+  "rootLicense": {
+    "path": "legal/upstream-root/LICENSE",
+    "size": 1071,
+    "sha256": "8c6e9406804f46a424c033510a28d02c64a0d94862a27c71af231a91cc1504d3",
+    "url": "https://raw.githubusercontent.com/jordond/MaterialKolor/5.0.0/LICENSE"
+  },
+  "licenseFacts": {
+    "root": "MIT text at upstream root",
+    "mciSourceJar": "Apache-2.0 text commonMain/com/materialkolor/LICENSE",
+    "mciOriginalPom": "MIT declaration in Maven Central POM",
+    "mciPortPom": "Apache-2.0 as in prior port"
+  }
+}

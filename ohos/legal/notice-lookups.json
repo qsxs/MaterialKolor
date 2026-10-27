@@ -1,0 +1,40 @@
+[
+  {
+    "module": "material-kolor",
+    "file": "NOTICE",
+    "url": "https://raw.githubusercontent.com/jordond/MaterialKolor/5.0.0/NOTICE",
+    "status": "HTTP_404"
+  },
+  {
+    "module": "material-color-utilities",
+    "file": "NOTICE",
+    "url": "https://raw.githubusercontent.com/jordond/MaterialKolor/5.0.0/material-color-utilities/NOTICE",
+    "status": "HTTP_404"
+  },
+  {
+    "module": "colormath",
+    "file": "NOTICE",
+    "url": "https://raw.githubusercontent.com/ajalt/colormath/3.6.1/NOTICE",
+    "status": "HTTP_404"
+  },
+  {
+    "module": "poko-annotations",
+    "file": "NOTICE",
+    "url": "https://raw.githubusercontent.com/drewhamilton/Poko/0.23.1/NOTICE",
+    "status": "HTTP_404"
+  },
+  {
+    "module": "material-kolor",
+    "file": "build.gradle.kts",
+    "url": "https://raw.githubusercontent.com/jordond/MaterialKolor/5.0.0/material-kolor/build.gradle.kts",
+    "status": "OBTAINED",
+    "path": ".kmp-orchestrator/runtime/agentsflow/tasks/cpf-filekit-p4-20261022/p5-exploration/raw/material-kolor-official-build.gradle.kts"
+  },
+  {
+    "module": "material-color-utilities",
+    "file": "build.gradle.kts",
+    "url": "https://raw.githubusercontent.com/jordond/MaterialKolor/5.0.0/material-color-utilities/build.gradle.kts",
+    "status": "OBTAINED",
+    "path": ".kmp-orchestrator/runtime/agentsflow/tasks/cpf-filekit-p4-20261022/p5-exploration/raw/material-color-utilities-official-build.gradle.kts"
+  }
+]

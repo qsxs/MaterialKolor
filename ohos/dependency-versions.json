@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "status": "CI_INPUT_REQUIRED",
+  "repository": "https://qsxs.github.io/cpf-maven/",
+  "dependencies": {
+    "poko": {
+      "group": "io.github.qsxs.cpf.poko",
+      "module": "poko-annotations",
+      "baseVersion": "0.23.1"
+    },
+    "colormath": {
+      "group": "io.github.qsxs.cpf.colormath",
+      "module": "colormath",
+      "baseVersion": "3.6.1"
+    }
+  },
+  "inputs": [
+    "version",
+    "sourceCommit",
+    "rootGmmSha256"
+  ],
+  "policy": "Explicit verified public GAV and root GMM hash; no local Maven or fallback"
+}
