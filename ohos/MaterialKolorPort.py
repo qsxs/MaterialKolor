@@ -28,8 +28,12 @@ TASKS = {"Tasks": ["tasks", "--all"], "Resolve": ["resolveMaterialKolor"],
 COMPILES = (("Metadata", "metadata", None), ("NativeX64", "native-x64", "ohos_x64"),
             ("NativeArm64", "native-arm64", "ohos_arm64"))
 REQUIRED = {"resolveMaterialKolor", "recordMaterialKolorMetadata", "recordMaterialKolorX64",
-            "recordMaterialKolorArm64", "publishMaterialKolor", "compileCommonMainWithMetadataCli",
-            "compileCommonMainKotlinMetadata", "compileKotlinOhosX64", "compileKotlinOhosArm64"}
+            "recordMaterialKolorArm64", "publishMaterialKolor"} | {
+                f"{module}:{task}"
+                for module in MODULES
+                for task in ("compileCommonMainWithMetadataCli", "allMetadataJar",
+                             "compileCommonMainKotlinMetadata", "compileKotlinOhosX64", "compileKotlinOhosArm64")
+            }
 POKO_CLASSES = ("com.materialkolor.hct.Hct", "com.materialkolor.palettes.TonalPalette",
                 "com.materialkolor.temperature.TemperatureCache", "com.materialkolor.dynamiccolor.ContrastCurve",
                 "com.materialkolor.dynamiccolor.ToneDeltaPair", "com.materialkolor.dynamiccolor.DynamicColor")
@@ -507,8 +511,9 @@ def main():
     if args.stage == "Tasks":
         text = stdout.read_text(encoding="utf-8", errors="replace")
         names = {name.lstrip(":") for name in re.findall(r"^\s*([\w:-]+)(?:\s+-|\s*$)", text, re.MULTILINE)}
-        if not REQUIRED.issubset(names):
-            raise RuntimeError("Required tasks absent from actual discovery")
+        missing = REQUIRED - names
+        if missing:
+            raise RuntimeError("Required tasks absent from actual discovery: " + ", ".join(sorted(missing)))
         write(work / "task-discovery.json", {"fingerprint": value["fingerprint"], "required": sorted(REQUIRED), "stdout": record(stdout)})
     for label, stage, target in COMPILES:
         if label == args.stage:
